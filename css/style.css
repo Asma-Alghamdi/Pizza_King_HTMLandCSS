@@ -5,21 +5,22 @@
     list-style: none;
     text-decoration: none;
 }
-
+/*////////////////////////////////////// The Header //////////////////////////////////////*/
 header{
     width: 100vw;
-    height: 100px;
-    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    height: 60px;
+    border-bottom: solid 1px #707070;
     font-family: 'Poppins';
 }
 
 header .inner{
-    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 95%; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
     margin: 0 auto;
 }
 
+/* The style of Logo*/
 header .logo{
     display: table;
     height: 100%;
@@ -37,6 +38,25 @@ header .logo img{
     margin-top: 5px; /* Optical alignment of the logo */
 }
 
+/* The style of user icon*/
+header .UserIcon{
+    display: table;
+    height: 100%;
+    float: right;
+}
+
+header .UserIcon div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .UserIcon img{
+    height: 37px;
+    margin-top: 5px; 
+    margin-right: 20px;
+}
+
 header nav{
     float: right;
     height: 100%;
@@ -46,7 +66,7 @@ header nav li{
     display: table;
     height: 100%;
     float: left;
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 header nav li:last-of-type{
@@ -62,13 +82,77 @@ header nav a{
     color: #101010;
 }
 
-header nav .button{
-    background-color: #1ab26b; /* This HEX is the color of the button */
-    color: #FFF;
-    padding: 10px 20px;
-    border-radius: 4px;
+/*////////////////////////////////////// The Pizza Picture & the type of order //////////////////////////////////////*/
+/*Red block*/
+.Redblock {
+width: 100%;
+height: 10px;
+background-color: #D8350D;
 }
 
-header nav .button:hover{
-    filter: brightness(1.05);
+.pizzaIMG img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
+
+
+
+/*////////////////////////////////////// The deals and menu //////////////////////////////////////*/
+.deal h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 0.5px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+
+.deal h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.deals img{
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  .button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 300px 5px 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #01B066;} /* Green */
+
+  .container {
+    height: 100px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
