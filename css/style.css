@@ -99,6 +99,10 @@ background-color: #D8350D;
 
 
 /*////////////////////////////////////// The deals and menu //////////////////////////////////////*/
+.deal{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .deal h2 {
     width: 100%; 
     text-align: center; 
@@ -113,6 +117,8 @@ background-color: #D8350D;
 }
 
 .deals img{
+    border: none;
+    border-radius: 10px;
     width: 50%;
     height: 50%;
     margin-top: 50px;
@@ -121,38 +127,45 @@ background-color: #D8350D;
 
 .row {
     display: flex;
+    width: 92.5%;
+    margin-left: 50px;
   }
   
   .column {
-    flex: 33.33%;
+    flex: 30%;
     padding: 10px;
   }
-
+/*//////////////////////////*/
   .button {
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 5px 300px 5px 300px;
+    padding: 7px 505px 7px 505px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 18px;
     cursor: pointer;
   }
   
   .button1 {background-color: #01B066;} /* Green */
 
-  .container {
-    height: 100px;
-    position: relative;
+  .containerButton {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+/*////////////////////////////////////// The footer //////////////////////////////////////*/
+  .footer {
+      background-color: #000;
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0;}
+
+  .copyRights h4{
+color: white;
+text-align: center;
+margin-bottom: 10px;
+border-top: 0.5px solid #5D5D5D; 
+line-height: 1em;
   }
   
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
