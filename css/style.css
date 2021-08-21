@@ -1,171 +1,187 @@
 /* Default styles for the browser */
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 /*////////////////////////////////////// The Header //////////////////////////////////////*/
-header{
-    width: 100vw;
-    height: 60px;
-    border-bottom: solid 1px #707070;
-    font-family: 'Poppins';
+header {
+  width: 100vw;
+  height: 60px;
+  border-bottom: solid 1px #707070;
+  font-family: "Poppins";
 }
 
-header .inner{
-    width: 95%; /* This is the inner width of the content inside of your header (80%, etc) */
-    height: 100%;
-    display: block;
-    margin: 0 auto;
+header .inner {
+  width: 95%; /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* The style of Logo*/
-header .logo{
-    display: table;
-    height: 100%;
-    float: left;
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
 }
 
-header .logo div{
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-header .logo img{
-    height: 50px;
-    margin-top: 5px; /* Optical alignment of the logo */
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
 }
 
 /* The style of user icon*/
-header .UserIcon{
-    display: table;
-    height: 100%;
-    float: right;
+header .UserIcon {
+  display: table;
+  height: 100%;
+  float: right;
 }
 
-header .UserIcon div{
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+header .UserIcon div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-header .UserIcon img{
-    height: 37px;
-    margin-top: 5px; 
-    margin-right: 20px;
+header .UserIcon img {
+  height: 37px;
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
-header nav{
-    float: right;
-    height: 100%;
+header nav {
+  float: right;
+  height: 100%;
 }
 
-header nav li{
-    display: table;
-    height: 100%;
-    float: left;
-    margin-right: 5px;
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 5px;
 }
 
-header nav li:last-of-type{
-    margin-right: 0;
+header nav li:last-of-type {
+  margin-right: 0;
 }
 
 header nav span {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-header nav a{
-    color: #101010;
+header nav a {
+  color: #101010;
 }
 
 /*////////////////////////////////////// The Pizza Picture & the type of order //////////////////////////////////////*/
 /*Red block*/
 .Redblock {
-width: 100%;
-height: 10px;
-background-color: #D8350D;
+  width: 100%;
+  height: 10px;
+  background-color: #d8350d;
 }
 
-.pizzaIMG img{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 30px;
+.pizzaIMG img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
 }
-
-
 
 /*////////////////////////////////////// The deals and menu //////////////////////////////////////*/
-.deal{
-    margin-left: 50px;
-    margin-right: 50px;
+.deal {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .deal h2 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 0.5px solid #000; 
-    line-height: 0.1em;
-    margin: 10px 0 20px; 
- } 
-
-.deal h2 span { 
-    background:#fff; 
-    padding:0 10px; 
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.5px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
 }
 
-.deals img{
-    border: none;
-    border-radius: 10px;
-    width: 50%;
-    height: 50%;
-    margin-top: 50px;
-    margin-bottom: 30px;
+.deal h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.deals img {
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .row {
-    display: flex;
-    width: 92.5%;
-    margin-left: 50px;
-  }
-  
-  .column {
-    flex: 30%;
-    padding: 10px;
-  }
-/*//////////////////////////*/
-  .button {
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 7px 505px 7px 505px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .button1 {background-color: #01B066;} /* Green */
+  display: flex;
+  width: 92.5%;
+  margin-left: 50px;
+}
 
-  .containerButton {
-    width: 100%;
-    margin-left: 60px;
-  }
+.column {
+  flex: 30%;
+  padding: 10px;
+}
+/*//////////////////////////*/
+.button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #01b066;
+  width: 91%;
+  height: 33px;
+} /* Green */
+
+.containerButton {
+  width: 100%;
+  margin-left: 60px;
+}
 
 /*////////////////////////////////////// The footer //////////////////////////////////////*/
-  .footer {
-      background-color: #000;
-      width: 100%;
-      margin-top: 20px;
-      margin-bottom: 0;}
+.footer {
+  background-color: #000;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 
-  .copyRights h4{
-color: white;
-text-align: center;
-margin-bottom: 10px;
-border-top: 0.5px solid #5D5D5D; 
-line-height: 1em;
+.copyRights h4 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border-top: 0.5px solid #5d5d5d;
+  line-height: 1.5em;
+}
+
+table {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 60px;
+    margin-bottom: 8px;
+  }
+  
+  td, th {
+    color: #dddddd;
+    text-align: left;
+    padding: 8px;
   }
   
