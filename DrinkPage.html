@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pizza King</title>
+    <!-- The title of the website-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <!-- The logo of the website/ I used https://favicomatic.com/ to resize the logo! -->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- This is the style for the page -->
+    <link rel="stylesheet" href="css/menuPages_style.css" />
+
+    <!-- This is the font that we'll be using -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    </head>
+    <body>
+       <!-- Start of the header -->
+    <header>
+      <div class="inner">
+        <div class="logo">
+          <div>
+            <!-- Here is the logo of the website -->
+            <img src="images/pizzaKing.png" alt="Logo" />
+          </div>
+        </div>
+
+        <nav>
+          <!-- Each of the below lines look complicated. There is a reason for this markup though!
+                <li> tag will be the container for the table.
+                <span> will be the part that centers the content inside it
+                <a> is the actual clickable part -->
+          <li>
+            <span><a href="">login</a></span>
+          </li>
+          <li><span>/</span></li>
+          <li>
+            <span><a href="">rejester</a></span>
+          </li>
+          <!-- On the line above, remove the class="button" if you don't want the final
+                element to be a button -->
+        </nav>
+
+        <div class="UserIcon">
+          <div>
+            <!-- Here is the logo of the website -->
+            <img src="images/user_login.svg" alt="User login" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of the header -->
+    
+    <!-- Meals -->
+    <div class="menu">
+        <div class="inner">
+         <nav>
+          <li>
+            <span><a href="PizzaPage.html">Pizaa</a></span>
+          </li>
+          <li>
+            <span><a href="SaladPage.html">Salads</a></span>
+          </li>
+            <li>
+            <span><a href="FriesPage.html">Fries</a></span>
+          </li>
+            <li>
+            <span><a href="DessertPage.html">Desserts</a></span>
+          </li>
+            <li>
+            <span><a href="">Drinks</a></span>
+          </li>
+          <!-- On the line above, remove the class="button" if you don't want the final
+                element to be a button -->
+          </nav>
+        </div>
+
+        <div class="deals">
+
+          <img src="images/menuBackground.jpg"/>
+
+          <div class="type" style="width:100%;">
+            <div class="types" style="width: 23%; float:left; margin: 1%;">
+              <img src="images/pepsi.jpeg"/>
+              <p> Pepsi </p>
+              <div class="priceButton">
+                <button type="button" class="button">Checkout SAR 30.00</button>
+              </div>
+            </div>
+
+            <div class="types" style="width: 23%; float:left; margin: 1%;">
+              <img src="images/Coca Cola.png"/>
+              <p> Coca Cola </p>
+              <div class="priceButton">
+                <button type="button" class="button">Checkout SAR 25.00</button>
+              </div>
+            </div>
+
+            <div class="types" style="width: 23%; float:left; margin: 1%;">
+              <img src="images/7up.jpg"/>
+              <p> 7 Up </p>
+              <div class="priceButton">
+                <button type="button" class="button">Checkout SAR 35.00</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+ 
+
+        </div>
+
+        <div class="cart">
+
+          <h5> <span> Your Cart <span> </h5>
+
+          <div class="price">
+
+              <input type="text" id="COUPON_CODE" name="COUPON CODE"  placeholder="COUPON CODE"/> 
+              <div class="containerButton">
+              <a href="PizzaPage.html"><button type="button" class="button button3">Apply</button></a>
+              </div>
+          </div> 
+
+          <div class="cost">
+          <h6 style="float: left"> Sub Total </h6>
+          <h6 style="float: right"> SAR 63.00</h6>
+          <br>
+          </div>
+
+          
+          <div class="cost">
+          <h6 style="float: left"> VAT (15% inclusive) </h6>
+          <h6 style="float: right"> SAR 63.00</h6>
+          <br>
+          </div>
+
+
+          <div class="checkout">
+            <a href="PizzaPage.html"><button type="button" class="button CheckoutButton">Checkout SAR 63.00</button></a>
+          </div>
+        </div>
+    </div>
+    <!-- End of meals -->
+        <script src="" async defer></script>
+    </body>
+</html>

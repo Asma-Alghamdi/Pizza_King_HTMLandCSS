@@ -1,0 +1,273 @@
+/* Default styles for the browser */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+/*////////////////////////////////////// The Header //////////////////////////////////////*/
+header {
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #707070;
+    font-family: "Poppins";
+  }
+  
+  header .inner {
+    width: 95%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* The style of Logo*/
+  header .logo {
+    display: table;
+    height: 100%;
+    float: left;
+  }
+  
+  header .logo div {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  header .logo img {
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+  }
+  
+  /* The style of user icon*/
+  header .UserIcon {
+    display: table;
+    height: 100%;
+    float: right;
+  }
+  
+  header .UserIcon div {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  header .UserIcon img {
+    height: 37px;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  
+  header nav {
+    float: right;
+    height: 100%;
+  }
+  
+  header nav li {
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+  }
+  
+  header nav li:last-of-type {
+    margin-right: 0;
+  }
+  
+  header nav span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  header nav a {
+    color: #101010;
+  }
+
+  /*////////////////// The list of meals //////////////////*/
+
+  .menu {
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #707070;
+    font-family: "Poppins";
+  }
+
+  .menu .inner {
+    width: 95%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .menu nav {
+    float: left;
+    height: 100%;
+  }
+
+  .menu nav li {
+    display: table;
+    height: 100%;
+    float: left;
+    padding-left: 95px;
+    padding-right: 97px;
+    border-right: solid 1px #707070;
+  }
+
+  .menu nav li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .menu nav span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .menu nav a {
+    color: #101010;
+  }
+
+
+ /*////////////////// The entier meals //////////////////*/
+  .deals {
+    float: left;
+    position: relative;
+    width: 75%;
+    display: -webkit-flex;
+    display: flex;
+    border-right: 1px solid #5d5d5d;
+  }
+
+  .deals img{
+    width: 100%;
+    height:100%;
+  }
+
+  .deals h5{
+    -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  }
+
+  .types {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  width: 25%;
+  height: 27%;
+  }
+
+  .type {
+    position: absolute;
+    top: 2%;  
+    left: 2%;  
+  }
+
+  .types img{
+    width: 92%;
+    height: auto;
+    border-bottom: 1px solid #707070;
+    padding: 7px;
+  }
+
+  .types p{
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  .types .priceButton{
+    text-align: center;
+    width: 94.5%;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+    border: none;
+  }
+
+  .priceButton button {
+    background-color: #0F6A36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 37px;
+    font-family: "Poppins";
+  } /* Green */
+
+
+  /* Style the content */
+.cart {
+  position: static;
+  float: left;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  width: 22%;
+  padding-top: 20px ;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.cart h5{
+  width: 100%;
+  text-align: center;
+  border-bottom: 0.5px solid #000;
+  line-height: 0.1em;
+  font-family: "Poppins";
+}
+
+.cart h5 span {
+  background: #fff;
+  padding: 10px;
+}
+
+.price {
+  width: 100%;
+  margin-top: 20px;
+  border-top:  0.5px solid #5d5d5d;
+}
+
+.price input[type=text]{
+  width: 72%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.containerButton {
+  width: 25%;
+  margin: 8px 0;
+  position: static;
+  float: right;
+}
+.price button {
+  background-color: #0F6A36;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 37px;
+  font-family: "Poppins";
+} /* Green */
+
+.cost {
+  width: 100%;
+}
+
+.cost h6{
+  font-family: "Poppins";
+}
+
+.CheckoutButton{
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #0F6A36;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}

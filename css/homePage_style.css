@@ -7,7 +7,7 @@
 }
 /*////////////////////////////////////// The Header //////////////////////////////////////*/
 header {
-  width: 100vw;
+  width: 100%;
   height: 60px;
   border-bottom: solid 1px #707070;
   font-family: "Poppins";
@@ -115,22 +115,25 @@ header nav a {
     text-decoration: none;
     font-size: 18px;
     cursor: pointer;
+    font-family: "Poppins";
   }
 
-.button0 {
+.button1 {
     background-color: #D8340D;
     position: absolute;
     top: 75%;
     left: 60%;  
     padding: 4px 20px 4px 20px; 
+    font-family: "Poppins";
 }
 
-.button01 {
+.button2 {
     background-color: #D8340D;
     position: absolute;
     top: 75%;
     left: 75%;  
     padding: 4px 20px 4px 20px; 
+    font-family: "Poppins";
 }
 
 .or h5{
@@ -180,15 +183,16 @@ header nav a {
 /*//////////////////////////*/
 
 
-.button1 {
+.button3 {
   background-color: #01b066;
   width: 91%;
   height: 33px;
+  margin-left: 60px;
+  font-family: "Poppins";
 } /* Green */
 
 .containerButton {
   width: 100%;
-  margin-left: 60px;
 }
 
 /*////////////////////////////////////// The footer //////////////////////////////////////*/
@@ -211,8 +215,9 @@ header nav a {
 table {
     width: 100%;
     margin-top: 8px;
-    margin-left: 60px;
+   /* margin-left: 60px;*/
     margin-bottom: 8px;
+    font-family: "Poppins";
   }
   
   td, th {
